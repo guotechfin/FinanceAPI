@@ -17,12 +17,17 @@ FinanceAPI is a RestFul WebServices Project developed using Java, Spring-Boot, A
 
 ## Service
 #### FinanceService is represented by @Service annotation. Service method will invoke Yahoo Finance Web Service and return the data to Controller. 
+
 ## Steps to Run Finance App
 - Run the project in STS using spring boot app.
 - Open the browser and use url http://localhost:9080/finance.html
 - Enter the company symbol and click search button to get stock details.
+
 ## References
 - Yahoo Developer Network: https://developer.yahoo.com/yql/
+
+- YQL Query select * from csv where url='http://download.finance.yahoo.com/d/quotes.csv?s=YHOO,GOOG,AAPL&f=sl1d1t1c1ohgv&e=.csv' and columns='symbol,price,date,time,change,col1,high,low,col2'
+
 - Endpoint URL for JSON: https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20csv%20where%20url%3D'http%3A%2F%2Fdownload.finance.yahoo.com%2Fd%2Fquotes.csv%3Fs%3DYHOO%26f%3Dsl1d1t1c1ohgv%26e%3D.csv'%20and%20columns%3D'symbol%2Cprice%2Cdate%2Ctime%2Cchange%2CpreviousClose%2Chigh%2Clow%2Cvolume'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys
 
 
