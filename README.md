@@ -26,8 +26,8 @@ FinanceAPI is a RestFul WebServices Project developed using Java, Spring-Boot, A
 ## References
 - Yahoo Developer Network: https://developer.yahoo.com/yql/
 
-- YQL Query select * from csv where url='http://download.finance.yahoo.com/d/quotes.csv?s=YHOO,GOOG,AAPL&f=sl1d1t1c1ohgv&e=.csv' and columns='symbol,price,date,time,change,col1,high,low,col2'
+- YQL Query: select * from csv where url='http://download.finance.yahoo.com/d/quotes.csv?s=YHOO,GOOG,AAPL&f=sl1d1t1c1ohgv&e=.csv' and    columns='symbol,price,date,time,change,previousClose,high,low,volume'
 
-- Endpoint URL for JSON: https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20csv%20where%20url%3D'http%3A%2F%2Fdownload.finance.yahoo.com%2Fd%2Fquotes.csv%3Fs%3DYHOO%26f%3Dsl1d1t1c1ohgv%26e%3D.csv'%20and%20columns%3D'symbol%2Cprice%2Cdate%2Ctime%2Cchange%2CpreviousClose%2Chigh%2Clow%2Cvolume'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys
+- Endpoint URL for JSON: https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20csv%20where%20url%3D'http%3A%2F%2Fdownload.fin   ance.yahoo.com%2Fd%2Fquotes.csv%3Fs%3DYHOO%26f%3Dsl1d1t1c1ohgv%26e%3D.csv'%20and%20columns%3D'symbol%2Cprice%2Cdate%2Ctime%2Cchange%2   CpreviousClose%2Chigh%2Clow%2Cvolume'&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys
 
 
